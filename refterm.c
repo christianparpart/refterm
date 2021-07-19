@@ -125,7 +125,8 @@ static HWND CreateOutputWindow()
     return Result;
 }
 
-void WinMainCRTStartup()
+//void WinMainCRTStartup()
+int main()
 {
     PreventWindowsDPIScaling();
 
