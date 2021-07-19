@@ -15,3 +15,6 @@ add_executable(refterm
     # refterm.c
 )
 target_compile_options(refterm PRIVATE -maes)
+
+add_executable(splat splat.cpp fast_pipe.h)
+add_executable(splat2 splat2.cpp fast_pipe.h)
